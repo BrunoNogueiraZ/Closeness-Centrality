@@ -1,11 +1,11 @@
 # Closeness-Centrality
-Outlining the solution
+Outlining the solution:
 
 Based on the information given by the challenge, the given graph can be interpreted as an Unweighted and Undirected Graph.
 
 In order to calculate the closeness centrality metric, it is needed to find the shortest path lenght (distance) between a node and all other nodes, in an effort to do that it can be used the Breadth First Search Algorithm (BFS), that traverses the graph and find a shortest path (not all of them, just "a") between two nodes. With all the distances in hand we can calculate the closeness centrality from that node.
 
-Setting up the Project
+Setting up the Project:
 
 Download the repository
 
